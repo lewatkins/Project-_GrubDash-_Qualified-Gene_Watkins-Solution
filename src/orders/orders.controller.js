@@ -147,7 +147,7 @@ function destroy(req, res, next) {
         if (!res.locals.order) {
             return next({
                 status: 404,
-                message: "No mactching order has been found"
+                message: "No matching order has been found"
             })
         }
     }
